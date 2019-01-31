@@ -2,7 +2,7 @@
   "name": "Liri-Bot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "keys.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +16,5 @@
   "bugs": {
     "url": "https://github.com/darup67/Liri-Bot/issues"
   },
-  "homepage": "https://github.com/darup67/Liri-Bot#readme",
-  "dependencies": {
-    "dotenv": "^6.2.0"
-  }
+  "homepage": "https://github.com/darup67/Liri-Bot#readme"
 }
