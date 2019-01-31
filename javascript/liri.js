@@ -43,6 +43,8 @@ console.log(userCommand);
 console.log(process.argv);
 runLiri();
 
+var artist = process.argv[3];
+
 
 function runLiri() {
     switch (userCommand) {
@@ -67,16 +69,16 @@ function runLiri() {
 
                         console.log("Venue: " + data[i].venue.name);
 
-                        fs.appendFileSync("log.txt", "Venue: " + data[i].venue.name + "\n", function(error) {
+                        fs.appendFileSync("log.txt", "Venue:" + data[i].venue.name + "\n", function(error) {
                             if (error) {
                                 console.log(error);
                             };
                         });
 
                         if (data[i].venue.region == "") {
-                            console.log("Location: " + data[i].venue.city + ", " + data[i].venue.country);
+                            console.log("Location:" + data[i].venue.city + ", " + data[i].venue.country);
 
-                            fs.appendFileSync("log.txt", "Location: " + data[i].venue.city + ", " + data[i].venue.country + "\n", function(error) {
+                            fs.appendFileSync("log.txt", "Location: " + data[i].venue.city + "," + data[i].venue.country + "\n", function(error) {
                                 if (error) {
                                     console.log(error);
                                 };
