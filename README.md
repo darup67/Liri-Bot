@@ -70,6 +70,8 @@ Actors in the movie.
 
 do-what-it-says:
 
+LIRI will use the text from “random.txt” and call on of LIRI’s commands. It should run Spotify-this-song for “I want it That way”.
+
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/do-what-it-says.png)
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/Mr.%20Nobody%20.png)
 
@@ -79,12 +81,6 @@ do-what-it-says:
 
 
 
-
-
-
-
-
-LIRI will use the text from “random.txt” and call on of LIRI’s commands. It should run Spotify-this-song for “I want it That way”.
 
 Technologies used:
 Spotify API
