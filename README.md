@@ -44,7 +44,7 @@ The album that the song is from
 
 movie-this:
 Screen shot
-![alt text](/liri-bot/screenshots/movie-this.jpg "movie-this")
+![alt text](http://url/to/img.png)
 
 
 
