@@ -42,7 +42,7 @@ The song's name
 A preview link of the song from Spotify
 The album that the song is from
 
-<h3>movie-this</h3>
+<h3>movie-this:</h3>
 
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/movie-this.png)
 
