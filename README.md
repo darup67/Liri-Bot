@@ -28,7 +28,7 @@ Name of the venue
 Venue location
 Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-Spotify-this-song:
+<h2>Spotify-this-song:</h2>
 
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/Spotify-this-song.png)
 
@@ -42,7 +42,7 @@ The song's name
 A preview link of the song from Spotify
 The album that the song is from
 
-movie-this:
+<h3>movie-this</h3>
 
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/movie-this.png)
 
@@ -68,7 +68,7 @@ Actors in the movie.
 
 
 
-do-what-it-says:
+<h4>do-what-it-says:</h4>
 
 LIRI will use the text from “random.txt” and call on of LIRI’s commands. It should run Spotify-this-song for “I want it That way”.
 
