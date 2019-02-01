@@ -11,7 +11,7 @@ movie-this
 do-what-it-says
 
 # Getting Started:
-Download the "screenshots" folder to see results of each command. This will allow you to better see how LIRI works with each given command.
+Clone this repo onto your local drive and the run it on your terminal/bash prompt. Below is the example commands and the results of the commands.
 
 concert-this:
 Screen shot
