@@ -29,8 +29,8 @@ Venue location
 Date of the Event (use moment to format this as "MM/DD/YYYY")
 
 Spotify-this-song:
-Screen shot
 
+![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/Spotify-this-song.png)
 
 
 
@@ -71,6 +71,7 @@ Actors in the movie.
 do-what-it-says:
 
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/do-what-it-says.png)
+![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/Mr.%20Nobody%20.png)
 
 
 
