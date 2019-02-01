@@ -7,6 +7,7 @@ var keys = require('./keys.js');
 var Spotify = require('node-spotify-api');
 var request = require('request');
 var moment = require('moment');
+var fs = require('fs');
 
 
 var spotify = new Spotify(keys.spotify);
@@ -39,7 +40,7 @@ for (var i = 3; i < nodeArgs.length; i++) {
 }
 
 var userCommand = process.argv[2];
-console.log(userCommand);
+console.log(artist);
 console.log(process.argv);
 runLiri();
 
@@ -85,9 +86,9 @@ function runLiri() {
                             });
 
                         } else {
-                            console.log("Location: " + data[i].venue.city + ", " + data[i].venue.region + ", " + data[i].venue.country);
+                            console.log("Location: " + data[i].venue.city + "," + data[i].venue.region + ", " + data[i].venue.country);
 
-                            fs.appendFileSync("log.txt", "Location: " + data[i].venue.city + ", " + data[i].venue.region + ", " + data[i].venue.country + "\n", function(error) {
+                            fs.appendFileSync("log.txt", "Location:" + data[i].venue.city + ", " + data[i].venue.region + "," + data[i].venue.country + "\n", function(error) {
                                 if (error) {
                                     console.log(error);
                                 };
