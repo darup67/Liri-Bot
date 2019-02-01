@@ -43,7 +43,7 @@ A preview link of the song from Spotify
 The album that the song is from
 
 movie-this:
-Screen shot
+
 ![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/movie-this.png)
 
 
@@ -69,7 +69,10 @@ Actors in the movie.
 
 
 do-what-it-says:
-Screen shot
+
+![alt text](https://github.com/darup67/Liri-Bot/blob/master/screenshots/do-what-it-says.png)
+
+
 
 
 
